@@ -7,6 +7,7 @@ import { CompartidosModule } from './compartidos/compartidos.module';
 import { MaterialModule } from './material/material/material.module';
 import { CategoriasModule } from './categorias/categorias.module';
 import { RecetasModule } from './recetas/recetas.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { RecetasModule } from './recetas/recetas.module';
     CompartidosModule,
     MaterialModule,
     CategoriasModule,
-    RecetasModule
+    RecetasModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
