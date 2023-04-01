@@ -10,7 +10,7 @@
     justify-content: center;
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(27deg, #3d81c5 50%, #63a9f0 50%);
+    background: linear-gradient(45deg, #a767a3 50%, #d84974 50%);
 }
 
 .form-body{
@@ -19,7 +19,7 @@
     border-radius: 0.625rem ;
     border-top-left-radius: 3.125rem ;
     border-bottom-right-radius: 3.125rem ;
-    border: solid 1px #2f2463;
+    border: solid 2px #3bb3d8;
     margin: 0.625rem;
 }
 .form-body img{
@@ -55,12 +55,12 @@
 }
 ::placeholder{
     font-size:  1rem;
-    color: rgba(14, 22, 125, 0.596);
+    color: rgba(243, 237, 241, 0.925);
 }
 .form-body input:hover{
     transition: .5s;
-    border:  1px solid #180480;
-    color: #2a0d69;
+    border:  1px solid #408bd6;
+    color: #8761da;
 }
 .form-body button{
     display: block;
@@ -73,13 +73,13 @@
     color: #fff;
     border-radius: 2px;
     cursor: pointer ;
-    border: 2px solid #63a9f0 ;
+    border: 2px solid #e7dfe6 ;
     outline: none ;
 
     transition: all .5s ease;
 } 
 .form-body button:hover{
     color: #fff;
-    border: 2px solid #3d81c5;
-    background: linear-gradient( #3d81c5, #63a9f0);
+    border: 2px solid #408bd6;
+    background: linear-gradient( #b309aa, #63a9f0);
 }
