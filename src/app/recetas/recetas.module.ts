@@ -7,6 +7,7 @@ import { EditRectComponent } from './components/edit-rect/edit-rect.component';
 import { DeleteRectComponent } from './components/delete-rect/delete-rect.component';
 import { CreateRectComponent } from './components/create-rect/create-rect.component';
 import { HomeRectComponent } from './components/home-rect/home-rect.component';
+import { MaterialModule } from '../material/material/material.module';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { HomeRectComponent } from './components/home-rect/home-rect.component';
   ],
   imports: [
     CommonModule,
-    RecetasRoutingModule
+    RecetasRoutingModule,
+    MaterialModule
   ]
 })
 export class RecetasModule { }

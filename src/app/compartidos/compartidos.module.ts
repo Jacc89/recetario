@@ -7,6 +7,7 @@ import { RegisterComponent } from './components/register/register.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
+import { MaterialModule } from '../material/material/material.module';
 
 
 @NgModule({
@@ -19,7 +20,11 @@ import { HomeComponent } from './components/home/home.component';
   ],
   imports: [
     CommonModule,
-    CompartidosRoutingModule
+    CompartidosRoutingModule,
+    MaterialModule
+  ],
+  exports:[
+    NavbarComponent
   ]
 })
 export class CompartidosModule { }
