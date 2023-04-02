@@ -8,6 +8,8 @@ import { DeleteRectComponent } from './components/delete-rect/delete-rect.compon
 import { CreateRectComponent } from './components/create-rect/create-rect.component';
 import { HomeRectComponent } from './components/home-rect/home-rect.component';
 import { MaterialModule } from '../material/material/material.module';
+import { CompartidosModule } from '../compartidos/compartidos.module';
+import { DetailsRectComponent } from './components/details-rect/details-rect.component';
 
 
 @NgModule({
@@ -16,12 +18,14 @@ import { MaterialModule } from '../material/material/material.module';
     EditRectComponent,
     DeleteRectComponent,
     CreateRectComponent,
-    HomeRectComponent
+    HomeRectComponent,
+    DetailsRectComponent
   ],
   imports: [
     CommonModule,
     RecetasRoutingModule,
-    MaterialModule
+    MaterialModule,
+    CompartidosModule
   ]
 })
 export class RecetasModule { }

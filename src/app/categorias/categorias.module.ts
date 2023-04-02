@@ -8,6 +8,7 @@ import { DeleteCategComponent } from './components/delete-categ/delete-categ.com
 import { CreateCategComponent } from './components/create-categ/create-categ.component';
 import { HomeCategComponent } from './components/home-categ/home-categ.component';
 import { MaterialModule } from '../material/material/material.module';
+import { CompartidosModule } from '../compartidos/compartidos.module';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { MaterialModule } from '../material/material/material.module';
   imports: [
     CommonModule,
     CategoriasRoutingModule,
-    MaterialModule
+    MaterialModule,
+    CompartidosModule
   ]
 })
 export class CategoriasModule { }

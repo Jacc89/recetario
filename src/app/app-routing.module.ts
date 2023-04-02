@@ -10,7 +10,8 @@ const routes: Routes = [
     loadChildren: () => import ('./recetas/recetas.module').then(m => m.RecetasModule)},
   { path: 'compartidos',
     loadChildren: () => import ('./compartidos/compartidos.module').then(m => m.CompartidosModule)},
-  { path: 'compartidos/login', redirectTo:'login'}
+  { path: 'compartidos/login', redirectTo:'login'},
+  // { path: '', component: NotFoundComponent, pathMatch:'full', redirectTo:'notFound'}
 
 
 
