@@ -15,7 +15,7 @@ const routes: Routes = [
     { path: 'editRect/:id', component: EditRectComponent},
     { path: 'deleteRect/:id', component: DeleteRectComponent},
     { path: 'detailsRect', component: DetailsRectComponent},
-    { path: '**', redirectTo:'detailsRect' }
+    // { path: '**', redirectTo:'detailsRect' }
     ]
   }
 
